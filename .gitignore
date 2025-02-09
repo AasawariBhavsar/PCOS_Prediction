@@ -1,0 +1,36 @@
+# Virtual environment
+venv/
+.env
+.venv/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+*.sqlite3
+
+# Logs and Debug files
+*.log
+logs/
+debug.log
+
+# Flask instance and migrations
+instance/
+migrations/
+
+# Ignore secrets and config files
+config.py
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
